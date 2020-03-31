@@ -1,0 +1,7 @@
+﻿CREATE TABLE [dbo].[Experiments]
+(
+	[Id] UNIQUEIDENTIFIER NOT NULL PRIMARY KEY, 
+    [DateStarted] DATETIME NOT NULL DEFAULT GETUTCDATE(), 
+    [Description] VARCHAR(MAX) NULL, 
+    [NumberOfDices] INT NOT NULL 
+)
