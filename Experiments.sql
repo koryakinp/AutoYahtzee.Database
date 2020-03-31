@@ -3,5 +3,6 @@
 	[Id] UNIQUEIDENTIFIER NOT NULL PRIMARY KEY, 
     [DateStarted] DATETIME NOT NULL DEFAULT GETUTCDATE(), 
     [Description] VARCHAR(MAX) NULL, 
-    [NumberOfDices] INT NOT NULL 
+    [NumberOfDices] INT NOT NULL, 
+    [Name] VARCHAR(50) NOT NULL 
 )
