@@ -61,5 +61,6 @@
   <ItemGroup>
     <Build Include="Throws.sql" />
     <Build Include="Experiments.sql" />
+    <Build Include="Predictions.sql" />
   </ItemGroup>
 </Project>
