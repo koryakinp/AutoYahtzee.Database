@@ -4,5 +4,5 @@
     [ThrowId] UNIQUEIDENTIFIER NOT NULL, 
     [Prediction] TINYINT NOT NULL, 
     [Confidence] FLOAT NOT NULL, 
-    CONSTRAINT [FK_Predictions_ToTableThrows] FOREIGN KEY ([ThrowId]) REFERENCES [Throws]([Id])
+    CONSTRAINT [FK_Predictions_ToTableThrows] FOREIGN KEY ([ThrowId]) REFERENCES [Throws]([Id]) ON DELETE CASCADE
 )
