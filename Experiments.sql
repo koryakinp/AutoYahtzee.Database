@@ -1,8 +1,0 @@
-﻿CREATE TABLE [dbo].[Experiments]
-(
-	[Id] UNIQUEIDENTIFIER NOT NULL PRIMARY KEY DEFAULT NEWID(), 
-    [DateStarted] DATETIME NOT NULL DEFAULT GETUTCDATE(), 
-    [Description] VARCHAR(MAX) NULL, 
-    [NumberOfDices] INT NOT NULL, 
-    [Name] VARCHAR(50) NOT NULL 
-)
